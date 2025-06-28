@@ -2,7 +2,7 @@
   {
     "id": 1,
     "label": "Angry",
-    "image":"/public/faces/angry.png",
+    "image":"/faces/angry.png",
     "level": "Anger is a complex emotion",
     "range": ["Slightly Angry", "Very Angry"],
     "range-color":"#DE385E" ,
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "label": "Sad",
-    "image":"/public/faces/sad.png",
+    "image":"/faces/sad.png",
     "level": "Sadness is a complex emotion",
     "range": ["Slightly Sad", "Very Sad"],
     "range-color":"#3E7EFF" ,
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "label": "Happy",
-    "image":"/public/faces/happy.png",
+    "image":"/faces/happy.png",
 
     "level": "Happiness is a complex emotion",
     "range": ["Slightly Happy", "Very Happy"],
@@ -30,7 +30,7 @@
   {
     "id": 4,
     "label": "Content",
-    "image":"/public/faces/content.png",
+    "image":"/faces/content.png",
 
     "level": "Contentment is a complex emotion",
     "range": ["Slightly Content", "Very Content"],
@@ -40,7 +40,7 @@
   {
     "id": 5,
     "label": "Neutral",
-    "image":"/public/faces/neutral.png",
+    "image":"/faces/neutral.png",
 
     "level": "Neutrality is a complex emotion",
     "range": ["Slightly Neutral", "Very Neutral"],
@@ -50,7 +50,7 @@
   {
     "id": 6,
     "label": "Awe",
-    "image":"/public/faces/awe.png",
+    "image":"/faces/awe.png",
 
     "level": "Awe is a complex emotion",
     "range": ["Slightly in Awe", "Very in Awe"],
