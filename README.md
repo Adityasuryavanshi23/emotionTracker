@@ -5,6 +5,24 @@ It allows users to select their current emotion, write the reason behind it, and
 
 ---
 
+
+## 📸 Screenshots
+
+### 🧠 landing page
+![landing page](./public//screenshots/main.png)
+
+---
+
+### ✍️ Choose Emotion Page
+![Choose Emotion Page](./public//screenshots/brave_screenshot_localhost.png)
+
+---
+
+### 🎉 Emotion Detail
+![Emotion Detail](./public/screenshots/choose.png)
+
+
+
 ## 📌 Features
 
 - 🎭 Emotion selection from visual cards
@@ -39,9 +57,7 @@ Follow these steps to run the app locally:
    git clone https://github.com/Adityasuryavanshi23/emotionTracker.git
 
 
-Navigate into the project folder
 
-cd emotion-tracker
 
 Install the dependencies
 
