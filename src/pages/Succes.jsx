@@ -1,3 +1,9 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Button } from "../components/Button";
+import { Link } from "react-router-dom";
+import { Pagination } from "swiper/modules";
+import { FramerMotion } from "../components/FramerMotion";
+import { useTitle } from "../hook/useTitle";
 import succesimg from "../assets/images/succes.png";
 import card1 from "../assets/images/Card Container.png";
 import card2 from "../assets/images/Card Container 2.png";
@@ -5,14 +11,8 @@ import card3 from "../assets/images/Card Container 3.png";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-
-import { Button } from "../components/Button";
-import { Link } from "react-router-dom";
-import { Pagination } from "swiper/modules";
-import { FramerMotion } from "../components/FramerMotion";
-
 export const Succes = () => {
+  useTitle("Success");
   const cardContainers = [
     {
       id: 1,

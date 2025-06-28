@@ -6,9 +6,11 @@ import { useState } from "react";
 import { Button } from "../components/Button";
 import axios from "axios";
 import { FramerMotion } from "../components/FramerMotion";
+import { useTitle } from "../hook/useTitle";
 
 export const ReasonInput = () => {
   const { id } = useParams();
+  useTitle("Reason Input");
   const emotion = emotiondata?.find((item) => item.id === Number(id));
   const extractedemotion = emotion?.keywords.slice(1, 4);
   const [reason, setReason] = useState("");

@@ -3,12 +3,14 @@ import emotiondata from "../data/emotiondata.json";
 import { useState } from "react";
 import { Button } from "../components/Button";
 import { FramerMotion } from "../components/FramerMotion";
+import { useTitle } from "../hook/useTitle";
 
 export const EmotionDetail = () => {
   const { id } = useParams();
   const [value, setValue] = useState(50);
   const emotion = emotiondata?.find((item) => item?.id === Number(id));
   console.log(emotion);
+  useTitle(emotion?.label);
 
   return (
     <FramerMotion>

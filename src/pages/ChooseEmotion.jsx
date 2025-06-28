@@ -3,10 +3,12 @@ import { EmotionFaces } from "../components/EmotionFaces";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import { FramerMotion } from "../components/FramerMotion";
+import { useTitle } from "../hook/useTitle";
 
 export const ChooseEmotion = () => {
   const [active, setActive] = useState(null);
   const nav = useNavigate();
+  useTitle("Choose Emotion");
 
   const handleComplete = () => {
     if (active) {
