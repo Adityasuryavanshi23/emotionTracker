@@ -36,7 +36,7 @@ Follow these steps to run the app locally:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/emotion-tracker.git
+   git clone https://github.com/Adityasuryavanshi23/emotionTracker.git
 
 
 Navigate into the project folder
@@ -54,8 +54,13 @@ npm run dev (App will run at: http://localhost:5173/)
 Folder Structure Overview
 src/
 ├── assets/           → Logos & images
+
 ├── components/       → Reusable components (Button, PageWrapper, etc.)
+
 ├── data/             → Static JSON file for emotions
+
 ├── pages/            → Main pages like ChooseEmotion, ReasonInput, Succes
+
 ├── App.jsx           → Routing setup
+
 ├── main.jsx          → React root entry
