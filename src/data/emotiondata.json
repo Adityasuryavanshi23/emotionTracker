@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "label": "Angry",
+    "image":"/public/faces/angry.png",
+    "level": "Anger is a complex emotion",
+    "range": ["Slightly Angry", "Very Angry"],
+    "range-color":"#DE385E" ,
+    "keywords": ["Irritated", "Annoyed", "Frustrated", "Fed Up", "Grumpy", "Touchy"]
+  },
+  {
+    "id": 2,
+    "label": "Sad",
+    "image":"/public/faces/sad.png",
+    "level": "Sadness is a complex emotion",
+    "range": ["Slightly Sad", "Very Sad"],
+    "range-color":"#3E7EFF" ,
+    "keywords": ["Down", "Disappointment", "Listless", "Apathy", "Disheartened"]
+  },
+  {
+    "id": 3,
+    "label": "Happy",
+    "image":"/public/faces/happy.png",
+
+    "level": "Happiness is a complex emotion",
+    "range": ["Slightly Happy", "Very Happy"],
+     "range-color":"#2BD515" ,
+    "keywords": ["Cheerful", "Warm", "Playful", "Amused", "Lighthearted", "Chipper"]
+  },
+  {
+    "id": 4,
+    "label": "Content",
+    "image":"/public/faces/content.png",
+
+    "level": "Contentment is a complex emotion",
+    "range": ["Slightly Content", "Very Content"],
+     "range-color":"#D58215" ,
+    "keywords": ["Calm", "Settled", "Okay", "At Ease", "Composed", "Relieved"]
+  },
+  {
+    "id": 5,
+    "label": "Neutral",
+    "image":"/public/faces/neutral.png",
+
+    "level": "Neutrality is a complex emotion",
+    "range": ["Slightly Neutral", "Very Neutral"],
+     "range-color":"#86FFD1" ,
+    "keywords": ["Blank", "Apathetic", "Detached", "Cool", "Indifferent", "Okay"]
+  },
+  {
+    "id": 6,
+    "label": "Awe",
+    "image":"/public/faces/awe.png",
+
+    "level": "Awe is a complex emotion",
+    "range": ["Slightly in Awe", "Very in Awe"],
+     "range-color":"#B815D5" ,
+    "keywords": ["Curious", "Intrigued", "Interested", "Engaged", "Observant"]
+  }
+]
